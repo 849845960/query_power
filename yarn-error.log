@@ -1,0 +1,71 @@
+Arguments: 
+  D:\program files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @umijs/preset-react -D
+
+PATH: 
+  C:\Users\Administrator\AppData\Roaming\npm;D:\program files\nodejs\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;"D:\nodejs%NODE_HOME%\;%NODE_HOME%\node_modules;%NODE_HOME%\node_modules\npm\node_global_modules\;\;D:\nodejs%NODE_HOME%\;%NODE_HOME%\node_modules;%NODE_HOME%\node_modules\npm\node_global_modules\;\node_modules;D:\nodejs%NODE_HOME%\;%NODE_HOME%\node_modules;%NODE_HOME%\node_modules\npm\node_global_modules\;\node_modules\npm\node_global_modules\;";C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, mkdir 'd:\Myapp\antd-demo\node_modules\jest-environment-jsdom-fourteen\node_modules\@types'
+
+npm manifest: 
+  {
+    "name": "antd-demo",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@antv/l7": "^2.3.9",
+      "@antv/l7-maps": "^2.3.9",
+      "@testing-library/jest-dom": "^5.11.9",
+      "@testing-library/react": "^11.2.5",
+      "@testing-library/user-event": "^12.8.3",
+      "@uiw/react-baidu-map": "^1.18.3",
+      "antd": "^4.12.3",
+      "echarts": "^5.0.2",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-scripts": "4.0.3",
+      "web-vitals": "^1.1.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@umijs/preset-react": "^1.8.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
